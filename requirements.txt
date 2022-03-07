@@ -1,4 +1,4 @@
-amqp==5.0.6
+amqp==5.1.0
 boto3==1.18.54
 imbalanced-learn==0.8.1
 libmozdata==0.1.73

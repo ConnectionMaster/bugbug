@@ -28,4 +28,4 @@ asyncio_mode = "auto"
 testpaths = ["tests"]
 
 [tool.uv.sources]
-bugbug = { git = "https://github.com/mozilla/bugbug", rev = "master" }
+bugbug = { git = "https://github.com/mozilla/bugbug", rev = "7eb05c3725ec1bf8fa2c5fe162b60648c7c7d646" }

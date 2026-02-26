@@ -950,7 +950,7 @@ def notification(days: int) -> None:
     all_s1_s2_bugs = []
 
     bug_map = {}
-    for b in bugzilla.get_bugs():
+    for b in bugzilla.get_bugs(include_all_products=True):
         if (
             b["id"] in bug_summary_ids
             or b["id"] in all_crash_bugs
